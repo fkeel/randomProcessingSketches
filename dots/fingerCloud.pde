@@ -15,7 +15,9 @@ class FingerCloud {
   void populate(int density_in, String style_in) {
     density = density_in;
     style = style_in;
-    //currently only one style
+    //currently only one style 
+    //instead of the random, there could also be a regular or gradient assign proccess
+    //plan on throwing a switch statement in here
     positions = new int[density][2];
 
     for (int i = 0; i < positions.length; i++) {

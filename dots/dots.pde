@@ -11,6 +11,8 @@ void setup(){
     aura.populate(400, "NaN");
     center.populate(100, "NaN");
     halo.populate(300, "NaN");
+    strokeWeight(2);
+
   
   
 }
