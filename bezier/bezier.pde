@@ -1,6 +1,6 @@
 int offset = 12;
 int digitWidth = 100;
-int curve = 0;
+int curve = 25;
 int radical = 0;
 int digitHeight = 120;
 void setup() {
